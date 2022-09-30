@@ -1,0 +1,1 @@
+In this project indexof, toUpperCase, style.display are used.
