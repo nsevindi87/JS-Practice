@@ -1,0 +1,1 @@
+In this project, arrays, if, slice, setTimeout properties were used.
