@@ -5,6 +5,7 @@ const select = document.getElementById("movie");
 const seats = document.querySelectorAll(".seat:not(.reserved)")
 
 getFromLocalStorage();
+calculateTotal();
 
 container.addEventListener("click", function(e){
     if(e.target.classList.contains("seat") && !e.target.classList.contains("reserved")){    //Bos koltuklari sectim
@@ -37,27 +38,41 @@ function calculateTotal(){  //genel hesaplama fonksiyornu
         seatsArray.push(seat)
     });
 
-    let selectedSeatIndex = selectedSeatsArray.map(function(seat){ 
+    let selectedSeatIndexs = selectedSeatsArray.map(function(seat){ 
         return seatsArray.indexOf(seat);
     })
 
     //secilmis olanlar array'a atildi. bütün koltuklar da array'a atildi. 
     //secilmis arrayinde olanlari alip tüm koltuklar arasindaki index numarasi taratildi.
 
-    console.log(selectedSeatIndex)
+    console.log(selectedSeatIndexs)
 
     let selectedSeatCount = container.querySelectorAll(".seat.selected").length;   //secilen koltuklarin sayisini aldik
     count.innerText = selectedSeatCount;
     amount.innerText = selectedSeatCount * select.value;
 
-    savetoLocalStorage(selectedSeatIndex);
+    saveToLocalStorage(selectedSeatIndexs);
 }
 
 function getFromLocalStorage(){
+    const selectedSeats = JSON.parse(localStorage.getItem("selectedSeats"));
 
+    if(selectedSeats != null && selectedSeats.length > 0){
+        seats.forEach(function(seat, index){
+            if(selectedSeats.indexOf(index) > -1){
+                seat.classList.add("selected");
+            }
+        })
+    }
+
+    const selectedMovieIndex = localStorage.getItem("selectedMovieIndex");
+
+    if(selectedMovieIndex != null){
+        select.selectedIndex = selectedMovieIndex;
+    }
 }
 
-function savetoLocalStorage(indexs){
+function saveToLocalStorage(indexs){
     localStorage.setItem("selectedSeats", JSON.stringify(indexs));
     localStorage.setItem("selectedMovieIndex", select.selectedIndex);
 }
