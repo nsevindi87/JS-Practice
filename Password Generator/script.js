@@ -45,5 +45,5 @@ clipboardButton.addEventListener('click', ()=>{
     textarea.select()
     document.execCommand('copy')
     textarea.remove()
-    console.log('kopyalandihghjhhgggh')
+    console.log('Copied!')
 })
