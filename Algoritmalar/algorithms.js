@@ -4,4 +4,8 @@ import { userValidation } from "./baslangic/1_userValidation.js";
 
 import { longestWord } from "./baslangic/2_logestWord.js";
 
-console.log(longestWord("fun&!! time"))
+//console.log(longestWord("fun&!! time"))
+
+import { firstFactorial } from "./baslangic/3_firstFactorial.js"
+
+console.log(firstFactorial(8))
