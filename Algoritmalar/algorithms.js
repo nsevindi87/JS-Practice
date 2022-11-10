@@ -16,4 +16,8 @@ import { firstReverse } from "./baslangic/4_firstReverse.js"
 
 import { findIntersection } from "./baslangic/5_findIntersection.js"
 
-console.log(findIntersection(["1, 3, 4, 7, 13", "1,2,4,13,15"]))
+//console.log(findIntersection(["1, 3, 4, 7, 13", "1,2,4,13,15"]))
+
+import { questionMark } from "./baslangic/6_questionMark.js"
+
+console.log(questionMark("arrb6???4xxbl5???eee5"))
