@@ -8,4 +8,8 @@ import { longestWord } from "./baslangic/2_logestWord.js";
 
 import { firstFactorial } from "./baslangic/3_firstFactorial.js"
 
-console.log(firstFactorial(8))
+//console.log(firstFactorial(8))
+
+import { firstReverse } from "./baslangic/4_firstReverse.js"
+
+console.log(firstReverse("selam"))
