@@ -12,4 +12,8 @@ import { firstFactorial } from "./baslangic/3_firstFactorial.js"
 
 import { firstReverse } from "./baslangic/4_firstReverse.js"
 
-console.log(firstReverse("selam"))
+//console.log(firstReverse("selam"))
+
+import { findIntersection } from "./baslangic/5_findIntersection.js"
+
+console.log(findIntersection(["1, 3, 4, 7, 13", "1,2,4,13,15"]))
