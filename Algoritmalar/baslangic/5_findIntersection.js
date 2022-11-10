@@ -21,4 +21,7 @@ export const findIntersection = (arr) => {
 /* 
     (/\s/g, "") bosluklari "" ile degistir. Yani sil.
     .split() virgülden ayir ve yeni array yap.
+    .includes() icerikte var mi yok mu arar
+    .push() array icine ekleme yapar
+    
 */
