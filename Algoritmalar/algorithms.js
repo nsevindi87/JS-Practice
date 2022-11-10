@@ -1,3 +1,3 @@
 import { userValidation } from "./baslangic/1_userValidation.js";
 
-userValidation("First lesson first question")
+console.log(userValidation("u__hello_world123"))
