@@ -28,8 +28,8 @@ import { letterChange } from "./baslangic/7_letterChange.js"
 
 import { simpleAdding } from "./baslangic/8_simpleAdding.js"
 
-console.log(simpleAdding(10))
+//console.log(simpleAdding(10))
 
-import { letterCapitalize } from "../../Image Editor/9_letterCapitalize.js"
+import { letterCapitalize } from "./baslangic/9_letterCapitalize.js"
 
-console.log(letterCapitalize("hello world!"))
+console.log(letterCapitalize("bugun calismak icin harika bir gün"))
