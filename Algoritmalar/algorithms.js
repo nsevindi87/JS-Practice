@@ -44,4 +44,8 @@ import { timeConvert } from "./baslangic/12_timeConvert.js"
 
 import { alphabetSoup } from "./baslangic/13_alphabetSoup.js"
 
-console.log(alphabetSoup("he llo+"))
+//console.log(alphabetSoup("he llo+"))
+
+import { abCheck } from "./baslangic/14_abCheck.js"
+
+console.log(abCheck("lane borrowed"))
