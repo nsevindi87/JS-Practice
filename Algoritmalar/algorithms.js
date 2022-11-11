@@ -48,4 +48,8 @@ import { alphabetSoup } from "./baslangic/13_alphabetSoup.js"
 
 import { abCheck } from "./baslangic/14_abCheck.js"
 
-console.log(abCheck("lane borrowed"))
+//console.log(abCheck("lane borrowed"))
+
+import { vowelCount } from "./baslangic/15_vowelCount.js"
+
+console.log(vowelCount("vowel characters are counted!"))
