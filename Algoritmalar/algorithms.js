@@ -24,4 +24,12 @@ import { questionMark } from "./baslangic/6_questionMark.js"
 
 import { letterChange } from "./baslangic/7_letterChange.js"
 
-console.log(letterChange("Hello World!"))
+//console.log(letterChange("Hello World!"))
+
+import { simpleAdding } from "./baslangic/8_simpleAdding.js"
+
+console.log(simpleAdding(10))
+
+import { letterCapitalize } from "../../Image Editor/9_letterCapitalize.js"
+
+console.log(letterCapitalize("hello world!"))
