@@ -32,4 +32,8 @@ import { simpleAdding } from "./baslangic/8_simpleAdding.js"
 
 import { letterCapitalize } from "./baslangic/9_letterCapitalize.js"
 
-console.log(letterCapitalize("bugun calismak icin harika bir gün"))
+//console.log(letterCapitalize("bugun calismak icin harika bir gün"))
+
+import { simpleSymbols } from "./baslangic/10_simpleSymbols.js"
+
+console.log(simpleSymbols("++f+===+c+==+a+"))
