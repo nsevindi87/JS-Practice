@@ -52,4 +52,8 @@ import { abCheck } from "./baslangic/14_abCheck.js"
 
 import { vowelCount } from "./baslangic/15_vowelCount.js"
 
-console.log(vowelCount("vowel characters are counted!"))
+//console.log(vowelCount("vowel characters are counted!"))
+
+import { isPalindrome } from "./baslangic/16_isPalindrome.js"
+
+console.log(isPalindrome("racecar"))
