@@ -60,7 +60,7 @@ import { wordCount } from "./baslangic/16_wordCount.js"
 
 import { exOh } from "./baslangic/17_exOh.js"
 
-console.log(exOh("xxxoooxooox"))
+//console.log(exOh("xxxoooxooox"))
 
 import { isPalindrome } from "./baslangic/18_isPalindrome.js"
 
@@ -69,3 +69,7 @@ import { isPalindrome } from "./baslangic/18_isPalindrome.js"
 import { arithGeo } from "./baslangic/19_arithGeo.js"
 
 //console.log(arithGeo([2,6,18]))
+
+import { arrayAddition } from "./baslangic/20_arrayAddition.js"
+
+console.log(arrayAddition([2,6,17,4,5]))
