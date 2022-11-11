@@ -40,8 +40,8 @@ import { simpleSymbols } from "./baslangic/10_simpleSymbols.js"
 
 import { timeConvert } from "./baslangic/12_timeConvert.js"
 
-console.log(timeConvert(225))
+//console.log(timeConvert(225))
 
-import { alphabetSoup } from "./baslangic/13_alphabetSoup"
+import { alphabetSoup } from "./baslangic/13_alphabetSoup.js"
 
-console.log(alphabetSoup(225))
+console.log(alphabetSoup("he llo+"))
