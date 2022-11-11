@@ -36,4 +36,8 @@ import { letterCapitalize } from "./baslangic/9_letterCapitalize.js"
 
 import { simpleSymbols } from "./baslangic/10_simpleSymbols.js"
 
-console.log(simpleSymbols("++f+===+c+==+a+"))
+//console.log(simpleSymbols("++f+===+c+==+a+"))
+
+import { timeConvert } from "./baslangic/11_timeConvert.js"
+
+console.log(timeConvert(225))
