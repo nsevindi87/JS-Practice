@@ -56,4 +56,8 @@ import { vowelCount } from "./baslangic/15_vowelCount.js"
 
 import { isPalindrome } from "./baslangic/16_isPalindrome.js"
 
-console.log(isPalindrome("racecar"))
+//console.log(isPalindrome("racecar"))
+
+import { arithGeo } from "./baslangic/17_arithGeo.js"
+
+console.log(arithGeo([2,6,18]))
