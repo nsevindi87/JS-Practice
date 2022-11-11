@@ -38,6 +38,10 @@ import { simpleSymbols } from "./baslangic/10_simpleSymbols.js"
 
 //console.log(simpleSymbols("++f+===+c+==+a+"))
 
-import { timeConvert } from "./baslangic/11_timeConvert.js"
+import { timeConvert } from "./baslangic/12_timeConvert.js"
 
 console.log(timeConvert(225))
+
+import { alphabetSoup } from "./baslangic/13_alphabetSoup"
+
+console.log(alphabetSoup(225))
