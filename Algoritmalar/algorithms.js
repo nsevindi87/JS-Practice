@@ -20,4 +20,8 @@ import { findIntersection } from "./baslangic/5_findIntersection.js"
 
 import { questionMark } from "./baslangic/6_questionMark.js"
 
-console.log(questionMark("arrb6???4xxbl5???eee5"))
+//console.log(questionMark("arrb6???4xxbl5???eee5"))
+
+import { letterChange } from "./baslangic/7_letterChange.js"
+
+console.log(letterChange("Hello World!"))
