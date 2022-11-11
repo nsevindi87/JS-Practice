@@ -54,10 +54,14 @@ import { vowelCount } from "./baslangic/15_vowelCount.js"
 
 //console.log(vowelCount("vowel characters are counted!"))
 
-import { isPalindrome } from "./baslangic/16_isPalindrome.js"
+import { wordCount } from "./baslangic/16_wordCount.js"
 
-//console.log(isPalindrome("racecar"))
+console.log(wordCount("cümlede kac kelime oldugu sayilacak"))
 
 import { arithGeo } from "./baslangic/17_arithGeo.js"
 
-console.log(arithGeo([2,6,18]))
+//console.log(arithGeo([2,6,18]))
+
+import { isPalindrome } from "./baslangic/18_isPalindrome.js"
+
+//console.log(isPalindrome("racecar"))
