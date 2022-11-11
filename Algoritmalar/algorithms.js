@@ -56,12 +56,16 @@ import { vowelCount } from "./baslangic/15_vowelCount.js"
 
 import { wordCount } from "./baslangic/16_wordCount.js"
 
-console.log(wordCount("cümlede kac kelime oldugu sayilacak"))
+//console.log(wordCount("cümlede kac kelime oldugu sayilacak"))
 
-import { arithGeo } from "./baslangic/17_arithGeo.js"
+import { exOh } from "./baslangic/17_exOh.js"
 
-//console.log(arithGeo([2,6,18]))
+console.log(exOh("xxxoooxooox"))
 
 import { isPalindrome } from "./baslangic/18_isPalindrome.js"
 
 //console.log(isPalindrome("racecar"))
+
+import { arithGeo } from "./baslangic/19_arithGeo.js"
+
+//console.log(arithGeo([2,6,18]))
