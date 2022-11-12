@@ -72,4 +72,8 @@ import { arithGeo } from "./baslangic/19_arithGeo.js"
 
 import { arrayAddition } from "./baslangic/20_arrayAddition.js"
 
-console.log(arrayAddition([2,6,17,4,5]))
+//console.log(arrayAddition([2,6,17,4,5]))
+
+import { letterCount } from "./baslangic/21_letterCount.js"
+
+console.log(letterCount("Hello my name is vegetariane"))
