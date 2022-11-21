@@ -1,10 +1,17 @@
 export const multiplicativePersistance = (num) => {
     let result = multiply(num)
-   
+    let multiplicativePersistance = 1
+
+    if(result < 10) return 0
+
+    while (result > 9){
+        multiplicativePersistance ++
+        result = multiply(result)
+    }
 
 
-    
-    return result
+
+    return multiplicativePersistance + " döngü sonucunda sonuc " +result
 }
 
 const multiply = (num) => {
