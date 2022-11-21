@@ -76,4 +76,8 @@ import { arrayAddition } from "./baslangic/20_arrayAddition.js"
 
 import { letterCount } from "./baslangic/21_letterCount.js"
 
-console.log(letterCount("Hello my name is vegetariane"))
+//console.log(letterCount("Hello my name is vegetariane"))
+
+import { multiplicativePersistance } from "./baslangic/32_MultiplicativePersistance.js"
+
+console.log(multiplicativePersistance(39))
