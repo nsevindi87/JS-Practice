@@ -78,6 +78,10 @@ import { letterCount } from "./baslangic/21_letterCount.js"
 
 //console.log(letterCount("Hello my name is vegetariane"))
 
-import { multiplicativePersistance } from "./baslangic/32_MultiplicativePersistance.js"
+import { multiplicativePersistance } from "./baslangic/32_multiplicativePersistance.js"
 
-console.log(multiplicativePersistance(39))
+//console.log(multiplicativePersistance(39))
+
+import { overlappingRanges } from "./baslangic/35_overlappingRanges.js"
+
+console.log(overlappingRanges([4,10,2,6,3]))
