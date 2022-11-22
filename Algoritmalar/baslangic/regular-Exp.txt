@@ -1,0 +1,3 @@
+   (/^[0-9]\d*$/).test(newArr[1]) = newArrayde sayi ve köseli parantez haricindekileri kontrol et.
+
+   arr[0].match(/[0-9]+/gi) = arraydeki sadece sayilari ayir

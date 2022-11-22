@@ -88,4 +88,8 @@ import { overlappingRanges } from "./baslangic/35_overlappingRanges.js"
 
 import { superIncreasing } from "./baslangic/36_superIncreasing.js"
 
-console.log(superIncreasing([1,3,6,13,54]))
+//console.log(superIncreasing([1,3,6,13,54]))
+
+import { arrayMatching } from "./baslangic/40_arrayMatching.js"
+
+console.log(arrayMatching(["[1,2,5,6]","[5,2,8,11,3,5]"]))
