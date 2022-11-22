@@ -84,4 +84,8 @@ import { multiplicativePersistance } from "./baslangic/32_multiplicativePersista
 
 import { overlappingRanges } from "./baslangic/35_overlappingRanges.js"
 
-console.log(overlappingRanges([4,10,2,6,3]))
+//console.log(overlappingRanges([4,10,2,6,3]))
+
+import { superIncreasing } from "./baslangic/36_superIncreasing.js"
+
+console.log(superIncreasing([1,3,6,13,54]))
