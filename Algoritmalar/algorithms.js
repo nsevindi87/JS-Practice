@@ -96,4 +96,8 @@ import { arrayMatching } from "./baslangic/40_arrayMatching.js"
 
 import { firstNonRepeating } from "./baslangic/43_firstNonRepeating.js"
 
-console.log(firstNonRepeating("sTress"))
+//console.log(firstNonRepeating("sTress"))
+
+import { twoSum } from "./baslangic/44_twoSum.js"
+
+console.log(twoSum([2,4,5,3],5))
