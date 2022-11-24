@@ -92,4 +92,8 @@ import { superIncreasing } from "./baslangic/36_superIncreasing.js"
 
 import { arrayMatching } from "./baslangic/40_arrayMatching.js"
 
-console.log(arrayMatching(["[1,2,5,6]","[5,2,8,11,3,5]"]))
+//console.log(arrayMatching(["[1,2,5,6]","[5,2,8,11,3,5]"]))
+
+import { firstNonRepeating } from "./baslangic/43_firstNonRepeating.js"
+
+console.log(firstNonRepeating("sTress"))
