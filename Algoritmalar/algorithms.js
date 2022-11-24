@@ -102,6 +102,6 @@ import { twoSum } from "./baslangic/44_twoSum.js"
 
 //console.log(twoSum([2,4,5,3],5))
 
-import { powerSetCount } from "./baslangic/46_powerSetCount"
+import { productDigits } from "./baslangic/47_productDigits.js"
 
-console.log(powerSetCount([1,2,3]))
+console.log(productDigits(24))
